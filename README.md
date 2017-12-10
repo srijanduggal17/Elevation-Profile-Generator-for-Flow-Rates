@@ -9,3 +9,6 @@ My code for this is under /Maps API test.
 My next goal was to generate elevations for every point in the region we wanted to put the tapstand in. 
 So I went to Google Earth Pro Desktop and picked four corner points to define the region.
 I recorded the latitude-longitude values in an Excel file titled "Boundary Points".
+My thought process here was that I would use the four corner points to come up with equations for four lines that defined a boundary for the region and then use that to create an array of points within the region.
+The latitude-longitude values were in Degrees-Minutes-Seconds notation, so first I converted them to decimal degrees using an online convertor.
+These converted values are also in the excel.
