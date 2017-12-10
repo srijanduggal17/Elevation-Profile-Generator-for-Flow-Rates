@@ -1,4 +1,4 @@
 The purpose of this code was to test a barebones version of querying the Google Maps 
 API for elevation data given latitude-longitude points.
 
-This code will not work unless you have a Google Maps API key.
+This code will not work unless you have a Google Maps API key and you insert it into the HTML
