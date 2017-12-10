@@ -15,3 +15,6 @@ These converted values are also in the excel.
 Then I found the equations of the lines using some simple code I wrote called "linegenerator.py" which you can run in an online editor like Repl.it.
 I put those equations into the excel and then into Desmos graphing calculator to visualize how I would split up the different conditional statements by x/y coordinates in my loop.
 The image file of my graph from Desmos is called "Mathematical Graph of Region.JPG"
+
+Then I wrote some code to generate all the points in the region we wanted. The code is under "/Points Generator"
+The points are at interavals of about 9 meters.
