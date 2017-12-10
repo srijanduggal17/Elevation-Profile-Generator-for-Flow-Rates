@@ -22,4 +22,4 @@ The image file of my graph from Desmos is called "Mathematical Graph of Region.J
 Then I wrote some code to generate all the points in the region we wanted. The code is under "/Points Generator"
 The points are at interavals of about 9 meters.
 
-Now I was ready to query the Google Maps API for all of those points. The code for this is under "/Elevation Compiler"
+Now I was ready to query the Google Maps API for all of those points. The code for this is under "/Elevation Query"
