@@ -23,3 +23,5 @@ Then I wrote some code to generate all the points in the region we wanted. The c
 The points are at interavals of about 9 meters.
 
 Now I was ready to query the Google Maps API for all of those points. The code for this is under "/Elevation Query"
+The query results were 21 separate JSON files, so then I wrote some code to compile them into one file.
+This is under "/Elevation Data Compiler"
