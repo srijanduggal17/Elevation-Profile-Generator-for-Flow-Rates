@@ -3,7 +3,8 @@ The goal of this project is to create a tool that helps people create elevation 
 
 I started this for the Uganda Project for Engineers without Borders at Georgia Tech. We were trying to figure out where to place a tapstand in a certain region of the country but we needed a certain flow rate output.
 
-If you want to follow along, read below for my process. Each folder in this repo has an "Overview" file which explains the code within
+If you want to follow along, read below for my process. Each folder in this repo has an "Overview" file which explains the code within.
+Files are also commented where necessary.
 
 The first thing I did was test out how to query elevation data from the Google Maps API.
 My code for this is under "/Maps API test".
