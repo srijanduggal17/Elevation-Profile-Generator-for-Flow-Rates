@@ -1,1 +1,7 @@
- alsjd
+This code was written in JavaScript. It uses electron.js (a framework for desktop development) because I wanted to save a JSON file locally.
+"package.JSON" and "main.js" are general files for the electron framework.
+"index.html" just links to the JS file because electron hosts an html file on your desktop.
+The main code is in "sketch.js".
+The input points are "pointstotest.JSON"
+The output points with elevation data are in "/Results".
+There are 21 files because the query speed was significantly quicker with datasets of this size.
