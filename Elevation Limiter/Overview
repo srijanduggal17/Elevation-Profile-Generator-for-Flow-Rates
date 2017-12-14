@@ -1,0 +1,6 @@
+This code was written in JavaScript. 
+It uses node's file system because I wanted to save a JSON file locally as well as fast-csv to write CSV files.
+The main code is in "sketch.js".
+The input points are "elevationdata.JSON"
+The output points are "prelimtapoptions.JSON" and "prelimtapoptions.csv".
+Then I opened the csv file, saved it in Excel, and sorted the elevations from low to high
