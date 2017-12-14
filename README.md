@@ -26,3 +26,8 @@ Now I was ready to query the Google Maps API for all of those points. The code f
 The query results were 21 separate JSON files, so then I wrote some code to compile them into one file.
 This is under "/Elevation Data Compiler"
 The final dataset file is under "/Elevation Data Compiler" as "elevationdata.JSON"
+
+Next I eliminated all points with elevations above that of the T4 junction.
+I used the basic query from "/Maps API test" to get the elevation of the T4 junction.
+Then I used it as a limit in the "/Elevation Limiter" folder.
+This code eliminates those points and writes the remaining points to a JSON as well as a CSV file.
