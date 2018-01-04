@@ -2,7 +2,7 @@ const fs = require('fs');
 var pointslist = JSON.parse(fs.readFileSync("pointstotest.JSON"));
 
 /*
-)utput is a variable that I had to change each time I ran the code in order to get datasets of 500 points each.
+Output is a variable that I had to change each time I ran the code in order to get datasets of 500 points each.
 For some reason, queries for datasets up to about 500 points came back instantly but anything more
 took forever so I ran the code 21 times.
 */
