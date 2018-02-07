@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Bounds</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div id="pointsinputdiv">
+		<h4>Enter corner points below in decimal degrees</h4>
+		<table id="pointstable">
+			<tr>
+				<th>Lat</th>
+				<th>Long</th>
+			</tr>
+			<tr id="inputrow1">
+				<td>
+					<input id="latinput1" type="number" max="90">
+					<span id="latinputaster1" class="aster">*</span>
+				</td>		
+				<td>
+					<input id="longinput1" type="number" max="180">
+					<span id="longinputaster1" class="aster">*</span>
+				</td>
+			</tr>
+			<tr id="inputrow2">
+				<td>
+					<input id="latinput2" type="number" max="90">
+					<span id="latinputaster2" class="aster">*</span>
+				</td>		
+				<td>
+					<input id="longinput2" type="number" max="180">
+					<span id="longinputaster2" class="aster">*</span>
+				</td>
+			</tr>
+		</table>
+		<button id="savepointsbutton">Create Region</button>
+	</div>
+	<p id="message">Inputted region is too large</p>
+	<script src="index.js">
+</script>
+</body>
+</html>

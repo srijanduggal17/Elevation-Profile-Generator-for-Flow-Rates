@@ -1,0 +1,21 @@
+.aster {
+	color: red;
+	font-size: 20px;
+	display: none;
+}
+
+#canv {
+	display: block;
+}
+
+#drawtitle {
+	display: none;
+}
+
+#drawingdiv {
+	display: none;
+}
+
+#message {
+	display: none;
+}
