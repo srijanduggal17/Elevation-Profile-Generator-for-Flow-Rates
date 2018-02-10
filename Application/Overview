@@ -1,0 +1,11 @@
+The purpose of this application is to allow users to retrieve and visualize elevation data in 3d.
+It is composed of two sections: the data retrieval, and the visualization.
+The data retrieval is in a desktop application run using electron and the visualization is in MATLAB.
+
+In order to execute it, run the desktop application and then input the region you would like data for.
+Then exit out of the desktop application and open MATLAB to run the script.
+
+There are two main HTML files: index.html and query.html
+index.html is the page which prompts you to enter the latitudes and longitudes for your region.
+query.html is the page which queries the Maps API each time it refreshes until it retrieves the data for all the requested points.
+Once the files are saved, run visualizationScript.m in MATLAB.
